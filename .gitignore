@@ -1,2 +1,4 @@
 test.bat
 myClass*.bat
+
+!examples/*/myClass*.bat
