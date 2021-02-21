@@ -9,6 +9,6 @@ if "%super%" NEQ "" (
 	call object %*
 )
 
-call getptr %~1 self 1
+call getobjptr %~1 self 1
 
 exit /b

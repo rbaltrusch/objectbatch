@@ -8,6 +8,7 @@
 @echo off
 setlocal enabledelayedexpansion
 	set rv=!%1!
-	set type=!%rv%.type!
+	set type=!%rv%.__class__!
 endlocal & set type=%type%
+set self=
 call %type% %*
