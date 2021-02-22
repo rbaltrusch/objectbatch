@@ -1,6 +1,6 @@
 @echo off
 setlocal enabledelayedexpansion
-	set objptr=!%~1!
+	if exist %~1 ( set objptr=%~1 ) else ( set objptr=!%~1! )
 	set attr=%~2
 	set rv=!%objptr%.%attr%!
 endlocal & set attr=%rv%
