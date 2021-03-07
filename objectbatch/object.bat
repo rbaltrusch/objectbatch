@@ -1,3 +1,10 @@
+@echo off
+
+if "%~1" EQU "help" (
+	start "" https://github.com/rbaltrusch/objectbatch/wiki#object
+	exit /b 0
+)
+
 call class %*
 set __class__=%~0
 %class%

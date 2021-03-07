@@ -1,5 +1,10 @@
 @echo off
 
+if "%~1" EQU "help" (
+	start "" https://github.com/rbaltrusch/objectbatch/wiki#super
+	exit /b 0
+)
+
 set super=%__super__%
 set __super__=
 

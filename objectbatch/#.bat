@@ -6,6 +6,12 @@
 ::Note: object needs to have a type attribute
 
 @echo off
+
+if "%~1" EQU "help" (
+	start "" https://github.com/rbaltrusch/objectbatch/wiki#bat
+	exit /b 0
+)
+
 setlocal enabledelayedexpansion
 	set rv=!%1!
 	set type=!%rv%.__class__!

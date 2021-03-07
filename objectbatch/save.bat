@@ -1,4 +1,10 @@
 @echo off
+
+if "%~1" EQU "help" (
+	start "" https://github.com/rbaltrusch/objectbatch/wiki#save
+	exit /b 0
+)
+
 goto :main
 
 :main 1:savefile 2:elements

@@ -1,4 +1,10 @@
 @echo off
+
+if "%~1" EQU "help" (
+	start "" https://github.com/rbaltrusch/objectbatch/wiki#sub
+	exit /b 0
+)
+
 set _self=%self%
 call new %*
 for /f "tokens=1,2,3 delims=.=" %%a in ('set %self%') do (

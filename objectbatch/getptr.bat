@@ -1,4 +1,10 @@
 @echo off
+
+if "%~1" EQU "help" (
+	start "" https://github.com/rbaltrusch/objectbatch/wiki#getptr
+	exit /b 0
+)
+
 set ptr=%~1
 
 ::optional arg
