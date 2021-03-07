@@ -2,7 +2,14 @@
 
 Objectbatch directly supports [method encapsulation](https://github.com/rbaltrusch/objectbatch/tree/master/examples/encapsulation/method_encapsulation) with private, protected and public access levels.
 
+[Attribute encapsulation](https://github.com/rbaltrusch/objectbatch/tree/master/examples/encapsulation/attribute_encapsulation) is not directly supported. Instead, a Python-like naming convention can be used for attribute names:
+```batch
+::public attribute
+obj.attr
 
+::private attribute
+obj._attr
+```
 
 ## How to run
 

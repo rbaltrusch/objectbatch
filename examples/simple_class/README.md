@@ -1,7 +1,22 @@
-# 
+# Simple class
 
+In this example, we define a simple class, with a constructor in which we define one custom attribute, *myAttr*, and one public method, *myMethod*. This example also showcases how attributes can be read and written to, and how methods, including the constructor, can be called. The class definition is as follows, with line numbers marked in for reference:
 
+```batch
+1	call class %*
+2	%class%
+3
+4	:public-myMethod
+5		echo hello from myMethod!
+6	exit /b
+7
+8	:public-construct --> 1:objectname
+9		call super %*
+10		set %self%.myAttr=0
+11	exit /b
+```
 
+The class header is defined one lines 1 and 2, 
 ## How to run
 
 To run this example, run:

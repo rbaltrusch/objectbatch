@@ -1,6 +1,20 @@
-# 
+# Python types
 
+This example contains a re-implementation of basic functionality for Python inbuilt types list and dict. The main purpose of this example is to showcase objectbatch as used to program with a real application in mind.
 
+It includes the following methods:
+
+Dict methods:
+- get
+- set
+- delete
+
+List methods:
+- get
+- set
+- append
+- pop
+- print
 
 ## How to run
 
