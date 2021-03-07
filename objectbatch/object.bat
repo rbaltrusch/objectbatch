@@ -8,5 +8,6 @@ exit /b
 
 :public-construct --> 1:objectname
 	call get_new_objptr self
+	set %self%.__class__=%__class__%
 	set %~1=%self%
 exit /b
