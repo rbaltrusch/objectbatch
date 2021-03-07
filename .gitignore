@@ -1,4 +1,6 @@
 test.bat
 myClass*.bat
 
+test_report.html
+
 !examples/*/myClass*.bat
