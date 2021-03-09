@@ -1,6 +1,14 @@
-# 
+# Polymorphism
 
+Due to batch being essentially interpreted text, polymorphism is an object-oriented feature that objectbatch gets *"for free"*, meaning that it is essentially in-built to the language.
 
+We can, for example, define two objects *a* and *b* of two different classes and call the *update* method for both of them exploiting polymorphism:
+
+```batch
+call new Class1 obj1 construct
+call new Class2 obj2 construct
+for %%o in (obj1 obj2) do ( call # %%o update )
+```
 
 ## How to run
 

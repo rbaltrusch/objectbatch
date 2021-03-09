@@ -16,7 +16,12 @@ In this example, we define a simple class, with a constructor in which we define
 11	exit /b
 ```
 
-The class header is defined one lines 1 and 2, 
+1) The class header is defined one lines 1 and 2.
+1) We define a public method *myMethod* on lines 4 to 6.
+	- This method can be called using the syntax: *call # obj myMethod*.
+1) We define the class constructor, a public method called *construct*.
+	- This method can be called using the syntax *call new SimpleClass obj construct*.
+
 ## How to run
 
 To run this example, run:

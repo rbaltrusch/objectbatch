@@ -1,6 +1,6 @@
-# 
+# Attribute encapsulation
 
-
+Objectbatch does not support attribute encapsulation. Instead, a Python-like syntax may be adopted, with which names of attributes that are meant to be private start with an underscore (e.g. *_my_private_attr*).
 
 ## How to run
 
