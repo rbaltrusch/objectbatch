@@ -1,6 +1,6 @@
 # Polymorphism
 
-Due to batch being essentially interpreted text, polymorphism is an object-oriented feature that objectbatch gets *"for free"*, meaning that it is essentially in-built to the language.
+Due to batch being essentially interpreted text, polymorphism is an object-oriented feature that objectbatch gets *"for free"*, meaning that it is an in-built feature of the language.
 
 We can, for example, define two objects *a* and *b* of two different classes and call the *update* method for both of them exploiting polymorphism:
 
