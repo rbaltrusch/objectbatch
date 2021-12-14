@@ -14,9 +14,8 @@ echo.
 echo.
 tree /a /f .
 
-::call "../../batest/batest/batest.bat" . > %tempfile%
+call "../../batest/batest/batest.bat" . > %tempfile%
 echo 0 > %tempfile%
-call "../../batest/batest/batest.bat"
 set /p ERRORLEVEL= < %tempfile%
 del %tempfile%
 echo %ERRORLEVEL% error(s) occured.
