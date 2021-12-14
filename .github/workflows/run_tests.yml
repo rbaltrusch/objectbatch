@@ -19,5 +19,4 @@ jobs:
       - name: Run tests
         working-directory: objectbatch/tests
         shell: cmd
-        #run: run_tests
-        run: tree /a
+        run: run_tests
