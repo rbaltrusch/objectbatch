@@ -6,9 +6,9 @@
 set ERRORLEVEL=0
 set tempfile=__temp__
 
-tree /a ..
+tree /a ../..
 
-call "../batest/batest/batest.bat" ../objectbatch > %tempfile%
+call "../../batest/batest/batest.bat" ../objectbatch > %tempfile%
 set /p ERRORLEVEL= < %tempfile%
 del %tempfile%
 echo %ERRORLEVEL% error(s) occured.
