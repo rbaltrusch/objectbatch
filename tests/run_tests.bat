@@ -8,7 +8,8 @@ set tempfile=__temp__
 
 tree /a ../..
 
-call "../../batest/batest/batest.bat" ../objectbatch > %tempfile%
+cd ../objectbatch
+call "../../batest/batest/batest.bat" . > %tempfile%
 set /p ERRORLEVEL= < %tempfile%
 del %tempfile%
 echo %ERRORLEVEL% error(s) occured.
