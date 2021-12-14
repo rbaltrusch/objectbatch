@@ -14,6 +14,13 @@ echo.
 echo.
 tree /a /f .
 
+call "../../batest/batest/batest.bat" path
+call "../../batest/batest/batest.bat" --list
+
+echo.
+echo.
+echo.
+
 call "../../batest/batest/batest.bat" . > %tempfile%
 echo 0 > %tempfile%
 set /p ERRORLEVEL= < %tempfile%
