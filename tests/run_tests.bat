@@ -20,6 +20,7 @@ call "../../batest/batest/batest.bat" --list .
 echo.
 echo.
 echo.
+echo.
 
 call "../../batest/batest/batest.bat" . > %tempfile%
 echo 0 > %tempfile%
