@@ -6,9 +6,7 @@
 set ERRORLEVEL=0
 set tempfile=__temp__
 
-dir /b ../batest
-echo.
-dir /b ../batest/batest
+tree /a ..
 
 call "../batest/batest/batest.bat" ../objectbatch > %tempfile%
 set /p ERRORLEVEL= < %tempfile%
