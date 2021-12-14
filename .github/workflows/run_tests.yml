@@ -13,6 +13,7 @@ jobs:
           repository: rbaltrusch/batest
           path: batest
       - name: Run tests
-        working-directory: tests
+        #working-directory: tests
         shell: cmd
-        run: run_tests
+        #run: run_tests
+        run: tree /a
