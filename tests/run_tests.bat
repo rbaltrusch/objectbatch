@@ -15,7 +15,7 @@ echo.
 tree /a /f .
 
 call "../../batest/batest/batest.bat" path
-call "../../batest/batest/batest.bat" --list
+call "../../batest/batest/batest.bat" --list .
 
 echo.
 echo.
