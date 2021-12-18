@@ -1,3 +1,7 @@
+[![Run Tests](https://github.com/rbaltrusch/batest/actions/workflows/run_tests.yml/badge.svg)](https://github.com/rbaltrusch/objectbatch/actions/workflows/run_tests.yml)
+![version](https://img.shields.io/badge/version-1.0.0-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
+
 # Object oriented batch
 
 Objectbatch is an object-oriented extension of the Windows batchfile language, including classes and instances, methods and attributes, inheritance, encapsulation, polymorphism and object composition.
