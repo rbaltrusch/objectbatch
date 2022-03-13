@@ -8,6 +8,7 @@ call clear a
 call tests/myClass2 a construct
 
 setlocal enabledelayedexpansion
+echo "!%a%.a!"
 call assert "!%a%.a!" EQU "234" "a should be equal to 234 from myClass2 and not 1234 from myClass"
 endlocal & set errorlevel=%errorlevel%
 

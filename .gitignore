@@ -1,5 +1,6 @@
 test.bat
 myClass*.bat
+!objectbatch/tests/myClass*.bat
 
 test_report.html
 

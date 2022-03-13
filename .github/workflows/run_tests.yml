@@ -17,6 +17,6 @@ jobs:
           repository: rbaltrusch/objectbatch
           path: objectbatch
       - name: Run tests
-        working-directory: objectbatch/tests
         shell: cmd
-        run: run_tests
+        run: |
+          call "objectbatch/tests/run_tests.bat"
