@@ -6,7 +6,7 @@ set self2=
 call get_new_objptr self2
 
 call assert "%self1%" EQU "%self1%" "Pointer variable should not change with a get_new_objptr call if already defined"
-if errorlevel 0 ( exit /b %errorlevel% )
+if errorlevel 1 ( exit /b %errorlevel% )
 
 call assert "" NEQ "%self2%" "Pointer variable should change with a get_new_objptr call if not already defined"
 

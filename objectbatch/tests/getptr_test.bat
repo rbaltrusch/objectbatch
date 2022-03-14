@@ -5,7 +5,7 @@ set obj=$123
 set self=$234
 call getptr obj self 1
 call assert "%self%" EQU "$123" "Pointer variable self should equal to the value stored in obj at recursion depth 1!"
-if errorlevel 0 ( exit /b %errorlevel% )
+if errorlevel 1 ( exit /b %errorlevel% )
 set self=
 
 ::recursion depth 2
