@@ -46,6 +46,13 @@ To use objectbatch anywhere, add the objectbatch folder to your Windows PATH.
 
 For more information on the various object-oriented features available, please have a look at the [examples](https://github.com/rbaltrusch/objectbatch/tree/master/examples) and the [wiki](https://github.com/rbaltrusch/objectbatch/wiki).
 
+An example object-oriented batchfile repository can be found [here](https://github.com/rbaltrusch/batch_transactions).
+
+## Limitations
+
+- Changed object state within a local scope (`setlocal`) can only persist by using `save.bat`.
+- Batchfile bug: it seems that instantiating many objects at once causes older objects to vanish. Circumvent this issue by serialising with `save.bat`.
+
 ## Contributions
 
 Any contributions, such as additional features, bugfixes, or documentation are much appreciated. Contribution guidelines are specified in [CONTRIBUTING.md](https://github.com/rbaltrusch/objectbatch/blob/master/CONTRIBUTING.md).
