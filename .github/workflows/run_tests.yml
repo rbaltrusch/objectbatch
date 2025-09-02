@@ -8,11 +8,11 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           repository: rbaltrusch/batest
           path: batest
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           repository: rbaltrusch/objectbatch
           path: objectbatch
